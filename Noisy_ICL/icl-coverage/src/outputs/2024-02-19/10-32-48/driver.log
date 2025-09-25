@@ -1,0 +1,1 @@
+[2024-02-19 10:33:23,079][openai][INFO] - error_code=None error_message='This is a chat model and not supported in the v1/completions endpoint. Did you mean to use v1/chat/completions?' error_param=model error_type=invalid_request_error message='OpenAI API error received' stream_error=False

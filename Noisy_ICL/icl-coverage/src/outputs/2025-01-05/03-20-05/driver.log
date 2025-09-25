@@ -1,0 +1,5 @@
+[2025-01-05 03:20:58,837][datasets.load][WARNING] - Using the latest cached version of the dataset since glue couldn't be found on the Hugging Face Hub
+[2025-01-05 03:20:58,844][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'qqp' at /home/haskari/.cache/huggingface/datasets/glue/qqp/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c (last modified on Tue Dec 10 08:23:16 2024).
+[2025-01-05 03:21:47,076][datasets.load][WARNING] - Using the latest cached version of the dataset since glue couldn't be found on the Hugging Face Hub
+[2025-01-05 03:21:47,080][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'qqp' at /home/haskari/.cache/huggingface/datasets/glue/qqp/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c (last modified on Tue Dec 10 08:23:16 2024).
+[2025-01-05 03:29:19,772][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2

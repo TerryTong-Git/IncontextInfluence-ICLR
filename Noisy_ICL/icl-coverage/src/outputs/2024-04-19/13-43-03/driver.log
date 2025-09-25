@@ -1,0 +1,2 @@
+[2024-04-19 13:44:09,447][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: all-mpnet-base-v2
+[2024-04-19 13:44:11,449][sentence_transformers.SentenceTransformer][INFO] - Use pytorch device_name: cuda

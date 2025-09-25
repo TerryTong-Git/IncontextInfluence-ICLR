@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=1,2,3,4 python experiments.py --label 'final' --datasets "mrpc;qnli;qqp;sst2" --seeds '90' --selectors "bertscore;cosine;bm25;random;bertscoreinfluencepruning;cosineinfluencepruning;bertscoreinfluencereweighting;cosineinfluencereweighting" --lms "llama13B" --lm-batch-size 20 --batch-size 20 --n-shots '8' --baselines-exp --paramsfile "params/params-all-0.jsonl" --run --no-collate-results --no-coverage-results --influence-version "proposed"
+
+# can change influence-version to LiSSA or identity 

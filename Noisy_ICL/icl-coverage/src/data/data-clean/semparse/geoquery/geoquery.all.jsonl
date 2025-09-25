@@ -1,0 +1,880 @@
+{"source":"give me the cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"what are the high points of states surrounding m0","target":"answer ( high_point_1 ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"name the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"name all the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"can you tell me the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"could you tell me what is the highest point in the state of m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , m0 ) ) ) ) )"}
+{"source":"count the states which have elevations lower than what m0 has","target":"answer ( count ( intersection ( state , low_point_2 ( lower_2 ( low_point_1 ( m0 ) ) ) ) ) )"}
+{"source":"give me all the states of m0","target":"answer ( intersection ( state , loc_2 ( m0 ) ) )"}
+{"source":"give me the cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"give me the cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"give me the cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"give me the cities which are in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"give me the lakes in m0","target":"answer ( intersection ( lake , loc_2 ( m0 ) ) )"}
+{"source":"give me the largest state","target":"answer ( largest ( state ) )"}
+{"source":"give me the longest river that passes through the m0","target":"answer ( longest ( intersection ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"give me the number of rivers in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"give me the states that border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"how big is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how big is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how big is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how big is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how big is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how big is the city of m0","target":"answer ( size ( intersection ( city , m0 ) ) )"}
+{"source":"how high are the highest points of all the states","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( state ) ) ) ) )"}
+{"source":"how high is m0","target":"answer ( elevation_1 ( m0 ) )"}
+{"source":"how high is m0","target":"answer ( elevation_1 ( m0 ) )"}
+{"source":"how high is the highest point in m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how high is the highest point in m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how high is the highest point in the largest state","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( largest ( state ) ) ) ) ) )"}
+{"source":"how high is the highest point of m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how high is the highest point of m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how high is the highest point of m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how high is the highest point of m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how large is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how large is m0","target":"answer ( size ( m0 ) )"}
+{"source":"how large is the largest city in m0","target":"answer ( size ( largest ( intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how long is m0","target":"answer ( len ( m0 ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the longest river in m0","target":"answer ( len ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how long is the longest river in the m0","target":"answer ( len ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how long is the m0","target":"answer ( len ( m0 ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river in miles","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"how long is the shortest river in the m0","target":"answer ( len ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many big cities are in m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many capitals does m0 have","target":"answer ( count ( intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are in m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are in m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are there in the m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are there in the m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are there in m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities are there in m0","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities does m0 have","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities does the m0 have","target":"answer ( count ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"how many cities named m0 are there in the m1","target":"answer ( count ( intersection ( intersection ( city , m0 ) , loc_2 ( m1 ) ) ) )"}
+{"source":"how many citizens does the biggest city have in the usa","target":"answer ( population_1 ( largest ( city ) ) )"}
+{"source":"how many citizens in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many citizens in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many citizens live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many m0 rivers are there","target":"answer ( count ( intersection ( river , m0 ) ) )"}
+{"source":"how many inhabitants does m0 have","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many major cities are in m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many major cities are in m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many major cities are in states bordering m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"how many major cities are in states bordering m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"how many major cities are in m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many major cities are there","target":"answer ( count ( intersection ( major , city ) ) )"}
+{"source":"how many major cities are there in m0","target":"answer ( count ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"how many major rivers cross m0","target":"answer ( count ( intersection ( major , intersection ( river , traverse_2 ( m0 ) ) ) ) )"}
+{"source":"how many people are in the state of m0","target":"answer ( population_1 ( intersection ( state , m0 ) ) )"}
+{"source":"how many people are there in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people are there in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in the biggest city in m0 state","target":"answer ( population_1 ( largest ( intersection ( city , loc_2 ( intersection ( state , m0 ) ) ) ) ) )"}
+{"source":"how many people live in the capital of m0","target":"answer ( population_1 ( intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"how many people live in the capital of m0","target":"answer ( population_1 ( intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"how many people live in the smallest state bordering m0","target":"answer ( population_1 ( smallest ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"how many people live in the state with the largest population density","target":"answer ( population_1 ( largest_one ( density_1 , state ) ) )"}
+{"source":"how many people live in the m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people lived in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people reside in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many people stay in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many residents live in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how many rivers are called m0","target":"answer ( count ( intersection ( river , m0 ) ) )"}
+{"source":"how many rivers are found in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are in the state that has the most rivers","target":"answer ( count ( intersection ( river , loc_2 ( most ( state , loc_1 , river ) ) ) ) )"}
+{"source":"how many rivers are in the state with the highest point","target":"answer ( count ( intersection ( river , loc_2 ( intersection ( state , loc_1 ( highest ( place ) ) ) ) ) ) )"}
+{"source":"how many rivers are in the state with the largest population","target":"answer ( count ( intersection ( river , loc_2 ( largest_one ( population_1 , state ) ) ) ) )"}
+{"source":"how many rivers are there in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are there in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers are there in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers do not traverse the state with the capital m0","target":"answer ( count ( exclude ( river , traverse_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) )"}
+{"source":"how many rivers does m0 have","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers does m0 have","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers in m0 are longer than the m1","target":"answer ( count ( intersection ( intersection ( river , loc_2 ( m0 ) ) , longer ( m1 ) ) ) )"}
+{"source":"how many rivers in m0","target":"answer ( count ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"how many rivers run through m0","target":"answer ( count ( intersection ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"how many rivers run through the states bordering m0","target":"answer ( count ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"how many square kilometers in the m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"how many states are in the m0","target":"answer ( count ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"how many states are in the m0","target":"answer ( count ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"how many states are next to major rivers","target":"answer ( count ( intersection ( state , next_to_2 ( intersection ( major , river ) ) ) ) )"}
+{"source":"how many states are there","target":"answer ( count ( state ) )"}
+{"source":"how many states are there in the m0","target":"answer ( count ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"how many states are there in m0","target":"answer ( count ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"how many states border m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"how many states border at least one other state","target":"answer ( count ( intersection ( state , next_to_2 ( state ) ) ) )"}
+{"source":"how many states border m1 and border m0","target":"answer ( count ( intersection ( state , intersection ( next_to_2 ( m1 ) , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"how many states border m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"how many states border m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"how many states border on the state whose capital is m0","target":"answer ( count ( intersection ( state , next_to_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) )"}
+{"source":"how many states border m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"how many states border m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"how many states border the largest state","target":"answer ( count ( intersection ( state , next_to_2 ( largest ( state ) ) ) ) )"}
+{"source":"how many states border the m0 river","target":"answer ( count ( intersection ( state , next_to_2 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"how many states border the state that borders the most states","target":"answer ( count ( intersection ( state , next_to_2 ( most ( state , next_to_2 , state ) ) ) ) )"}
+{"source":"how many states border the state with the largest population","target":"answer ( count ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) ) )"}
+{"source":"how many states do not have rivers","target":"answer ( count ( exclude ( state , loc_1 ( river ) ) ) )"}
+{"source":"how many states does m0 border","target":"answer ( count ( intersection ( state , next_to_1 ( m0 ) ) ) )"}
+{"source":"how many states does m0 border","target":"answer ( count ( intersection ( state , next_to_1 ( m0 ) ) ) )"}
+{"source":"how many states does m0 border","target":"answer ( count ( intersection ( state , next_to_1 ( m0 ) ) ) )"}
+{"source":"how many states does the m0 river flow through","target":"answer ( count ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"how many states does the m0 river run through","target":"answer ( count ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"how many states does the m0 river run through","target":"answer ( count ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"how many states does the m0 run through","target":"answer ( count ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"how many states does the m0 river run through","target":"answer ( count ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"how many states does m0 have","target":"answer ( count ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"how many states have a city called m0","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) ) )"}
+{"source":"how many states have a city named m0","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) ) )"}
+{"source":"how many states have a higher point than the highest point of the state with the largest capital city in the m0","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( place , higher_2 ( highest ( intersection ( place , loc_2 ( intersection ( state , loc_1 ( largest ( intersection ( capital , intersection ( city , loc_2 ( m0 ) ) ) ) ) ) ) ) ) ) ) ) ) ) )"}
+{"source":"how many states have cities named m0","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) ) )"}
+{"source":"how many states have cities or towns named m0","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) ) )"}
+{"source":"how many states have major rivers","target":"answer ( count ( intersection ( state , loc_1 ( intersection ( major , river ) ) ) ) )"}
+{"source":"how many states in the m0 does the shortest river run through","target":"answer ( count ( intersection ( intersection ( state , loc_2 ( m0 ) ) , traverse_1 ( shortest ( river ) ) ) ) )"}
+{"source":"how much population does m0 have","target":"answer ( population_1 ( m0 ) )"}
+{"source":"how tall is m0","target":"answer ( elevation_1 ( m0 ) )"}
+{"source":"how tall is the highest point in m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"in what state is m0","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"in which state does the highest point in m0 exist","target":"answer ( intersection ( state , loc_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"in which state is m0","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"m0 borders how many states","target":"answer ( count ( intersection ( state , next_to_1 ( m0 ) ) ) )"}
+{"source":"list the states","target":"answer ( state )"}
+{"source":"name all the lakes of m0","target":"answer ( intersection ( lake , loc_2 ( m0 ) ) )"}
+{"source":"name all the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"name the 50 capitals in the m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"name the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"name the major lakes in m0","target":"answer ( intersection ( major , intersection ( lake , loc_2 ( m0 ) ) ) )"}
+{"source":"name the major rivers in m0","target":"answer ( intersection ( major , intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"name the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"name the states which have no surrounding states","target":"answer ( exclude ( state , next_to_2 ( state ) ) )"}
+{"source":"number of citizens in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"number of people in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"number of states bordering m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"of the states washed by the m0 river which has the lowest point","target":"answer ( intersection ( state , loc_1 ( lowest ( intersection ( place , loc_2 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) ) ) ) ) )"}
+{"source":"people in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"m0 is the capital of which state","target":"answer ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) )"}
+{"source":"m0 is in what state","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"show major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"show me all the major lakes in the m0","target":"answer ( intersection ( major , intersection ( lake , loc_2 ( m0 ) ) ) )"}
+{"source":"state the state with the largest area","target":"answer ( largest_one ( area_1 , state ) )"}
+{"source":"states bordering m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"tell me what cities are in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"through which states does the longest river in m0 run","target":"answer ( intersection ( state , traverse_1 ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"through which states does the m0 flow","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"through which states does the m0 run","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"what are all the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what are major rivers in m0","target":"answer ( intersection ( major , intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the biggest rivers in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the capital cities of the states which border m0","target":"answer ( intersection ( capital , intersection ( city , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the capital city in m0","target":"answer ( intersection ( capital , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the capitals of states that border m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what are the capitals of the states that border m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what are the cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"what are the cities in states through which the m0 runs","target":"answer ( intersection ( city , loc_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) )"}
+{"source":"what are the cities of the state with the highest point","target":"answer ( intersection ( city , loc_2 ( intersection ( state , loc_1 ( highest ( place ) ) ) ) ) )"}
+{"source":"what are the highest points of all the states","target":"answer ( highest ( intersection ( place , loc_2 ( state ) ) ) )"}
+{"source":"what are the highest points of states surrounding m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what are the lakes in states bordering m0","target":"answer ( intersection ( lake , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what are the largest cities in the states that border the largest state","target":"answer ( largest ( intersection ( city , loc_2 ( intersection ( state , next_to_2 ( largest ( state ) ) ) ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in states through which the m0 runs","target":"answer ( intersection ( major , intersection ( city , loc_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in the largest state","target":"answer ( intersection ( major , intersection ( city , loc_2 ( largest ( state ) ) ) ) )"}
+{"source":"what are the major cities in the smallest state in the m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( smallest ( intersection ( state , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what are the major cities in the state of m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( intersection ( state , m0 ) ) ) ) )"}
+{"source":"what are the major cities in the states through which the major river in m0 runs","target":"answer ( intersection ( major , intersection ( city , loc_2 ( intersection ( state , traverse_1 ( intersection ( major , intersection ( river , loc_2 ( m0 ) ) ) ) ) ) ) ) )"}
+{"source":"what are the major cities in the m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities of m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities of the m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major cities of the m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major lakes in m0","target":"answer ( intersection ( major , intersection ( lake , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major rivers in m0","target":"answer ( intersection ( major , intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the major rivers in the m0","target":"answer ( intersection ( major , intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the names of the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what are the neighboring states for m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what are the population densities of each us state","target":"answer ( density_1 ( state ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what are the populations of all the major cities in m0","target":"answer ( population_1 ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what are the populations of states through which the m0 river runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what are the populations of states through which the m0 river runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what are the populations of states through which the m0 runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what are the populations of states through which the m0 runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what are the populations of states which border m0","target":"answer ( population_1 ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what are the populations of the major cities of m0","target":"answer ( population_1 ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what are the populations of the states through which the m0 river runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what are the populations of the states through which the m0 river runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what are the populations of the states through which the m0 runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what are the populations of the states through which the m0 runs","target":"answer ( population_1 ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what are the rivers in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what are the rivers in the state of m0","target":"answer ( intersection ( river , loc_2 ( intersection ( state , m0 ) ) ) )"}
+{"source":"what are the rivers in the state of m0","target":"answer ( intersection ( river , loc_2 ( intersection ( state , m0 ) ) ) )"}
+{"source":"what are the rivers of m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what are the states","target":"answer ( state )"}
+{"source":"what are the states that border the state with the greatest population","target":"answer ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) )"}
+{"source":"what are the states that the m0 runs through","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"what are the states through which the longest river runs","target":"answer ( intersection ( state , traverse_1 ( longest ( river ) ) ) )"}
+{"source":"what can you tell me about the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what capital has the largest population","target":"answer ( largest_one ( population_1 , capital ) )"}
+{"source":"what capital is the largest in the m0","target":"answer ( largest ( intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"what cities are located in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"what cities in m0","target":"answer ( intersection ( city , loc_2 ( m0 ) ) )"}
+{"source":"what cities in m0 have the highest number of citizens","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what cities in m0 have the highest populations","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what city has the largest population","target":"answer ( largest_one ( population_1 , city ) )"}
+{"source":"what city has the least population","target":"answer ( smallest_one ( population_1 , city ) )"}
+{"source":"what city has the most people","target":"answer ( largest_one ( population_1 , city ) )"}
+{"source":"what city in the m0 has the highest population density","target":"answer ( largest_one ( density_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is capital of the state with the lowest point","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , loc_1 ( lowest ( place ) ) ) ) ) )"}
+{"source":"what is largest capital","target":"answer ( largest ( capital ) )"}
+{"source":"what is the adjacent state of m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of all the states combined","target":"answer ( sum ( area_1 ( state ) ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0 in square kilometers","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the area of the largest state","target":"answer ( area_1 ( largest ( state ) ) )"}
+{"source":"what is the area of the smallest state","target":"answer ( area_1 ( smallest ( state ) ) )"}
+{"source":"what is the area of the state with the capital m0","target":"answer ( area_1 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) )"}
+{"source":"what is the area of the state with the smallest population density","target":"answer ( area_1 ( smallest_one ( density_1 , state ) ) )"}
+{"source":"what is the area of the states","target":"answer ( area_1 ( state ) )"}
+{"source":"what is the area of the m0 state","target":"answer ( area_1 ( intersection ( state , m0 ) ) )"}
+{"source":"what is the area of m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the average population of the m0 by state","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the average population per square km in m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the average population per square km in the m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the biggest american city in a state with a river","target":"answer ( largest ( intersection ( city , loc_2 ( intersection ( state , loc_1 ( river ) ) ) ) ) )"}
+{"source":"what is the biggest capital city in the m0","target":"answer ( largest ( intersection ( capital , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in the smallest state","target":"answer ( largest ( intersection ( city , loc_2 ( smallest ( state ) ) ) ) )"}
+{"source":"what is the biggest city in the m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in the m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest state","target":"answer ( largest ( state ) )"}
+{"source":"what is the biggest state in m0","target":"answer ( largest ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the biggest state in the m0","target":"answer ( largest ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the capital city of the largest state in the m0","target":"answer ( intersection ( capital , intersection ( city , loc_2 ( largest ( intersection ( state , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of states that have cities named m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of the m0 state","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , m0 ) ) ) )"}
+{"source":"what is the capital of the m0 state","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , m0 ) ) ) )"}
+{"source":"what is the capital of the largest state","target":"answer ( intersection ( capital , loc_2 ( largest ( state ) ) ) )"}
+{"source":"what is the capital of the smallest state","target":"answer ( intersection ( capital , loc_2 ( smallest ( state ) ) ) )"}
+{"source":"what is the capital of the state m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , m0 ) ) ) )"}
+{"source":"what is the capital of the state that borders the most states","target":"answer ( intersection ( capital , loc_2 ( most ( state , next_to_2 , state ) ) ) )"}
+{"source":"what is the capital of the state that borders the state that borders m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the capital of the state with the highest elevation","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , loc_1 ( highest ( place ) ) ) ) ) )"}
+{"source":"what is the capital of the state with the highest point","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , loc_1 ( highest ( place ) ) ) ) ) )"}
+{"source":"what is the capital of the state with the largest population","target":"answer ( intersection ( capital , loc_2 ( largest_one ( population_1 , state ) ) ) )"}
+{"source":"what is the capital of the state with the largest population density","target":"answer ( intersection ( capital , loc_2 ( largest_one ( density_1 , state ) ) ) )"}
+{"source":"what is the capital of the state with the longest river","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , loc_1 ( longest ( river ) ) ) ) ) )"}
+{"source":"what is the capital of the state with the most inhabitants","target":"answer ( intersection ( capital , loc_2 ( largest_one ( population_1 , state ) ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the capital of m0","target":"answer ( intersection ( capital , loc_2 ( m0 ) ) )"}
+{"source":"what is the city in m0 with the largest population","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the city with the smallest population","target":"answer ( smallest_one ( population_1 , city ) )"}
+{"source":"what is the combined area of all 50 states","target":"answer ( sum ( area_1 ( state ) ) )"}
+{"source":"what is the combined population of all 50 states","target":"answer ( sum ( population_1 ( state ) ) )"}
+{"source":"what is the density of m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the density of the m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the elevation of m0","target":"answer ( elevation_1 ( m0 ) )"}
+{"source":"what is the elevation of the highest point in the m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the height of m0","target":"answer ( elevation_1 ( m0 ) )"}
+{"source":"what is the height of the highest mountain in m0","target":"answer ( elevation_1 ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the height of the highest point in the m0","target":"answer ( elevation_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the high point of m0","target":"answer ( high_point_1 ( m0 ) )"}
+{"source":"what is the highest elevation in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest elevation in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest elevation in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest elevation in the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest mountain in m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest mountain in m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest mountain in the m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest mountain in m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in each state whose lowest point is sea level","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , loc_1 ( intersection ( place , elevation_2 ( 0 ) ) ) ) ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0 in meters","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in states bordering m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in the smallest state","target":"answer ( highest ( intersection ( place , loc_2 ( smallest ( state ) ) ) ) )"}
+{"source":"what is the highest point in the state with capital m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) )"}
+{"source":"what is the highest point in the state with capital m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) )"}
+{"source":"what is the highest point in the state with the capital m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) )"}
+{"source":"what is the highest point in the state with the most rivers","target":"answer ( highest ( intersection ( place , loc_2 ( most ( state , traverse_1 , river ) ) ) ) )"}
+{"source":"what is the highest point in the state with the smallest population","target":"answer ( highest ( intersection ( place , loc_2 ( smallest_one ( population_1 , state ) ) ) ) )"}
+{"source":"what is the highest point in the states bordering m0","target":"answer ( highest ( intersection ( place , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the highest point in the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the highest point of the state with the largest area","target":"answer ( highest ( intersection ( place , loc_2 ( largest_one ( area_1 , state ) ) ) ) )"}
+{"source":"what is the highest point of the state with the smallest population density","target":"answer ( highest ( intersection ( place , loc_2 ( smallest_one ( density_1 , state ) ) ) ) )"}
+{"source":"what is the highest point of the m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest capital","target":"answer ( largest ( capital ) )"}
+{"source":"what is the largest capital city in the m0","target":"answer ( largest ( intersection ( capital , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the largest city in a state that borders m0","target":"answer ( largest ( intersection ( city , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in m0 by population","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in smallest state through which the m0 runs","target":"answer ( largest ( intersection ( city , loc_2 ( smallest ( intersection ( state , traverse_1 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the largest city in states that border m0","target":"answer ( largest ( intersection ( city , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city in the smallest state in the m0","target":"answer ( largest ( intersection ( city , loc_2 ( smallest ( intersection ( state , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the largest city in m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest city of m0","target":"answer ( largest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest of the states that the m0 runs through","target":"answer ( largest ( intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what is the largest river in m0 state","target":"answer ( longest ( intersection ( river , loc_2 ( intersection ( state , m0 ) ) ) ) )"}
+{"source":"what is the largest state","target":"answer ( largest ( state ) )"}
+{"source":"what is the largest state bordering m0","target":"answer ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state bordering m0","target":"answer ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state capital in population","target":"answer ( largest_one ( population_1 , capital_1 ( state ) ) )"}
+{"source":"what is the largest state in the m0","target":"answer ( largest ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state in m0","target":"answer ( largest ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state that borders m0","target":"answer ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state that borders m0","target":"answer ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the largest state that borders the state with the highest population","target":"answer ( largest ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) ) )"}
+{"source":"what is the largest state that borders the state with the lowest point in the m0","target":"answer ( largest ( intersection ( state , next_to_2 ( intersection ( state , loc_1 ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) ) ) ) )"}
+{"source":"what is the largest state traversed by the m0 river","target":"answer ( largest ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what is the least populous state","target":"answer ( smallest_one ( population_1 , state ) )"}
+{"source":"what is the length of the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"what is the length of the m0 river in m1","target":"answer ( len ( intersection ( m0 , intersection ( river , loc_2 ( m1 ) ) ) ) )"}
+{"source":"what is the length of the longest river in the m0","target":"answer ( len ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the length of the longest river that runs through m0","target":"answer ( len ( longest ( intersection ( river , traverse_2 ( m0 ) ) ) ) )"}
+{"source":"what is the length of the m0 river","target":"answer ( len ( intersection ( river , m0 ) ) )"}
+{"source":"what is the length of the river that flows through the most states","target":"answer ( len ( most ( river , traverse_2 , state ) ) )"}
+{"source":"what is the length of the river that runs through the most number of states","target":"answer ( len ( most ( river , traverse_2 , state ) ) )"}
+{"source":"what is the length of the river that runs through the most states","target":"answer ( len ( most ( river , traverse_2 , state ) ) )"}
+{"source":"what is the length of the river that traverses the most states","target":"answer ( len ( most ( river , traverse_2 , state ) ) )"}
+{"source":"what is the longest river","target":"answer ( longest ( river ) )"}
+{"source":"what is the longest river flowing through m0","target":"answer ( longest ( intersection ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in the largest state","target":"answer ( longest ( intersection ( river , loc_2 ( largest ( state ) ) ) ) )"}
+{"source":"what is the longest river in the smallest state in the m0","target":"answer ( longest ( intersection ( river , loc_2 ( smallest ( intersection ( state , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the longest river in the state with the highest point","target":"answer ( longest ( intersection ( river , loc_2 ( intersection ( state , loc_1 ( highest ( place ) ) ) ) ) ) )"}
+{"source":"what is the longest river in the state with the most major cities","target":"answer ( longest ( intersection ( river , loc_2 ( most ( state , loc_1 , intersection ( major , city ) ) ) ) ) )"}
+{"source":"what is the longest river in the states that border m0","target":"answer ( longest ( intersection ( river , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the longest river in the m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river in the m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river that does not run through m0","target":"answer ( longest ( exclude ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river that flows through a state that borders m0","target":"answer ( longest ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the longest river that flows through m0","target":"answer ( longest ( intersection ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"what is the longest river that passes the states that border the state that borders the most states","target":"answer ( longest ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( most ( state , next_to_2 , state ) ) ) ) ) ) )"}
+{"source":"what is the longest river that runs through a state that borders m0","target":"answer ( longest ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the lowest elevation in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0 in meters","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in the state of m0","target":"answer ( lowest ( intersection ( place , loc_2 ( intersection ( state , m0 ) ) ) ) )"}
+{"source":"what is the lowest point in the state of m0","target":"answer ( lowest ( intersection ( place , loc_2 ( intersection ( state , m0 ) ) ) ) )"}
+{"source":"what is the lowest point in the m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point of all states through which the m0 river runs through","target":"answer ( lowest ( intersection ( place , loc_2 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) ) ) )"}
+{"source":"what is the lowest point of m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the lowest point of the state with the largest area","target":"answer ( lowest ( intersection ( place , loc_2 ( largest_one ( area_1 , state ) ) ) ) )"}
+{"source":"what is the lowest point of the m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the major cities in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the maximum elevation of m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most dense state in the m0","target":"answer ( largest_one ( density_1 , intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most populated capital in the m0","target":"answer ( largest_one ( population_1 , intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most populated state bordering m0","target":"answer ( largest_one ( population_1 , intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the most populous city","target":"answer ( largest_one ( population_1 , city ) )"}
+{"source":"what is the most populous city in m0","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most populous city in m0","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most populous state","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what is the most populous state in the m0","target":"answer ( largest_one ( population_1 , intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the most populous state through which the m0 runs","target":"answer ( largest_one ( population_1 , intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what is the name of the state with the lowest point","target":"answer ( intersection ( state , loc_1 ( lowest ( place ) ) ) )"}
+{"source":"what is the number of neighboring states for m0","target":"answer ( count ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the population density in the state with capital m0","target":"answer ( density_1 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) )"}
+{"source":"what is the population density of m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the population density of m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the population density of m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the population density of the largest state","target":"answer ( density_1 ( largest ( state ) ) )"}
+{"source":"what is the population density of the smallest state","target":"answer ( density_1 ( smallest ( state ) ) )"}
+{"source":"what is the population density of the state with the smallest area","target":"answer ( density_1 ( smallest_one ( area_1 , state ) ) )"}
+{"source":"what is the population density of the state with the smallest population","target":"answer ( density_1 ( smallest_one ( population_1 , state ) ) )"}
+{"source":"what is the population density of m0","target":"answer ( density_1 ( m0 ) )"}
+{"source":"what is the population in m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0 city","target":"answer ( population_1 ( intersection ( city , m0 ) ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of the capital of the largest state","target":"answer ( population_1 ( intersection ( capital , loc_2 ( largest ( state ) ) ) ) )"}
+{"source":"what is the population of the capital of the largest state through which the m0 runs","target":"answer ( population_1 ( intersection ( capital , loc_2 ( largest ( intersection ( state , traverse_1 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the population of the capital of the smallest state","target":"answer ( population_1 ( intersection ( capital , loc_2 ( smallest ( state ) ) ) ) )"}
+{"source":"what is the population of the largest city in the state with the largest area","target":"answer ( population_1 ( largest ( intersection ( city , loc_2 ( largest_one ( area_1 , state ) ) ) ) ) )"}
+{"source":"what is the population of the largest state","target":"answer ( population_1 ( largest ( state ) ) )"}
+{"source":"what is the population of the largest state that borders m0","target":"answer ( population_1 ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what is the population of the major cities in m0","target":"answer ( population_1 ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the population of the smallest state","target":"answer ( smallest ( population_1 ( state ) ) )"}
+{"source":"what is the population of the state that borders the most states","target":"answer ( population_1 ( most ( state , next_to_2 , state ) ) )"}
+{"source":"what is the population of the state with the highest population density","target":"answer ( population_1 ( largest_one ( density_1 , state ) ) )"}
+{"source":"what is the population of the state with the largest area","target":"answer ( population_1 ( largest_one ( area_1 , state ) ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the population of m0","target":"answer ( population_1 ( m0 ) )"}
+{"source":"what is the river that cross over m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what is the shortest river","target":"answer ( shortest ( river ) )"}
+{"source":"what is the shortest river in m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in the m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in the m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the shortest river in the m0","target":"answer ( shortest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the size of m0","target":"answer ( size ( m0 ) )"}
+{"source":"what is the size of m0","target":"answer ( size ( m0 ) )"}
+{"source":"what is the size of m0","target":"answer ( size ( m0 ) )"}
+{"source":"what is the size of the capital of m0","target":"answer ( size ( intersection ( capital , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the size of the largest state in the m0","target":"answer ( size ( largest ( intersection ( state , loc_2 ( m0 ) ) ) ) )"}
+{"source":"what is the smallest city in m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city in m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city in m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city in the largest state","target":"answer ( smallest ( intersection ( city , loc_2 ( largest ( state ) ) ) ) )"}
+{"source":"what is the smallest city in the m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city in the m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city in m0","target":"answer ( smallest ( intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest city of the smallest state in the m0","target":"answer ( smallest ( intersection ( city , loc_2 ( smallest ( intersection ( state , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what is the smallest state bordering m0","target":"answer ( smallest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest state bordering m0","target":"answer ( smallest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest state by area","target":"answer ( smallest_one ( area_1 , state ) )"}
+{"source":"what is the smallest state in the m0","target":"answer ( smallest ( intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest state that borders m0","target":"answer ( smallest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what is the smallest state that borders the most states","target":"answer ( smallest ( most ( state , next_to_2 , state ) ) )"}
+{"source":"what is the smallest state that the m0 river runs through","target":"answer ( smallest ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) )"}
+{"source":"what is the smallest state through which the longest river runs","target":"answer ( smallest ( intersection ( state , traverse_1 ( longest ( river ) ) ) ) )"}
+{"source":"what is the state that contains the highest point","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"what is the state with the highest elevation in the m0","target":"answer ( intersection ( state , loc_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"what is the state with the largest area","target":"answer ( largest_one ( area_1 , state ) )"}
+{"source":"what is the state with the largest density in m0","target":"answer ( largest_one ( density_1 , intersection ( state , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the state with the largest population density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"what is the state with the lowest point","target":"answer ( intersection ( state , loc_1 ( lowest ( place ) ) ) )"}
+{"source":"what is the state with the lowest population","target":"answer ( smallest_one ( population_1 , state ) )"}
+{"source":"what is the state with the lowest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"what is the state with the smallest area","target":"answer ( smallest_one ( area_1 , state ) )"}
+{"source":"what is the tallest mountain in m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the tallest mountain in the m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"what is the total area of the m0","target":"answer ( area_1 ( m0 ) )"}
+{"source":"what is the total length of all rivers in the usa","target":"answer ( sum ( len ( river ) ) )"}
+{"source":"what is the total population of the states that border m0","target":"answer ( sum ( population_1 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what length is the m0","target":"answer ( len ( m0 ) )"}
+{"source":"what major cities are located in m0","target":"answer ( intersection ( major , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"what major rivers run through m0","target":"answer ( intersection ( major , intersection ( river , traverse_2 ( m0 ) ) ) )"}
+{"source":"what mountains are in m0","target":"answer ( intersection ( mountain , loc_2 ( m0 ) ) )"}
+{"source":"what river flows through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what river flows through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what river flows through the most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"what river is the longest one in the m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"what river runs through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what river runs through the most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"what river runs through the state with the most cities","target":"answer ( intersection ( river , traverse_2 ( most ( state , loc_1 , city ) ) ) )"}
+{"source":"what river runs through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what river traverses the most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"what river traverses the state which borders the most states","target":"answer ( intersection ( river , traverse_2 ( most ( state , next_to_2 , state ) ) ) )"}
+{"source":"what rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers are in states that border m0","target":"answer ( intersection ( river , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers are there in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"what rivers do not run through m0","target":"answer ( exclude ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers flow though m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers flow through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers flow through states that m0 borders","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , next_to_1 ( m0 ) ) ) ) )"}
+{"source":"what rivers flow through states that border the state with the largest population","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) ) ) )"}
+{"source":"what rivers flow through the largest state","target":"answer ( intersection ( river , traverse_2 ( largest ( state ) ) ) )"}
+{"source":"what rivers flow through the state with the largest population","target":"answer ( intersection ( river , traverse_2 ( largest_one ( population_1 , state ) ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers run through the state with the lowest point in the m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , loc_1 ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) ) ) )"}
+{"source":"what rivers run through the states that border the state with the capital m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) ) )"}
+{"source":"what rivers run through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"what rivers traverses the state which borders the most states","target":"answer ( intersection ( river , traverse_2 ( most ( state , next_to_2 , state ) ) ) )"}
+{"source":"what state bordering m0 has the largest population","target":"answer ( largest_one ( population_1 , intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what state borders m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what state borders most other states","target":"answer ( most ( state , next_to_2 , state ) )"}
+{"source":"what state borders m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what state borders the least states","target":"answer ( fewest ( state , next_to_2 , state ) )"}
+{"source":"what state borders the least states excluding m0 and excluding m1","target":"answer ( fewest ( state , next_to_2 , exclude ( exclude ( state , m0 ) , m1 ) ) )"}
+{"source":"what state borders the most states","target":"answer ( most ( state , next_to_2 , state ) )"}
+{"source":"what state borders the state with the smallest population","target":"answer ( intersection ( state , next_to_2 ( smallest_one ( population_1 , state ) ) ) )"}
+{"source":"what state contains the highest point in the m0","target":"answer ( intersection ( state , loc_1 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"what state contains the highest point of those the m0 river traverses","target":"answer ( intersection ( state , loc_1 ( highest ( intersection ( place , loc_2 ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) ) ) ) ) ) )"}
+{"source":"what state has highest elevation","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"what state has no rivers","target":"answer ( exclude ( state , loc_1 ( river ) ) )"}
+{"source":"what state has the capital m0","target":"answer ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) )"}
+{"source":"what state has the city m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what state has the city with the largest population","target":"answer ( intersection ( state , loc_1 ( largest_one ( population_1 , city ) ) ) )"}
+{"source":"what state has the city with the most population","target":"answer ( intersection ( state , loc_1 ( largest_one ( population_1 , city ) ) ) )"}
+{"source":"what state has the greatest population density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"what state has the highest elevation","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"what state has the highest population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what state has the highest population density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"what state has the largest area","target":"answer ( largest_one ( area_1 , state ) )"}
+{"source":"what state has the largest capital","target":"answer ( intersection ( state , loc_1 ( largest ( capital ) ) ) )"}
+{"source":"what state has the largest city","target":"answer ( intersection ( state , loc_1 ( largest ( city ) ) ) )"}
+{"source":"what state has the largest population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what state has the largest population density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"what state has the largest urban population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what state has the least population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"what state has the longest river","target":"answer ( intersection ( state , loc_1 ( longest ( river ) ) ) )"}
+{"source":"what state has the lowest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"what state has the most cities","target":"answer ( most ( state , loc_1 , city ) )"}
+{"source":"what state has the most major cities","target":"answer ( most ( state , loc_1 , intersection ( major , city ) ) )"}
+{"source":"what state has the most major rivers running through it","target":"answer ( most ( state , traverse_1 , intersection ( major , river ) ) )"}
+{"source":"what state has the most people","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what state has the most rivers","target":"answer ( most ( state , loc_1 , river ) )"}
+{"source":"what state has the most rivers running through it","target":"answer ( most ( state , traverse_1 , river ) )"}
+{"source":"what state has the shortest river","target":"answer ( intersection ( state , loc_1 ( shortest ( river ) ) ) )"}
+{"source":"what state has the smallest area","target":"answer ( smallest_one ( area_1 , state ) )"}
+{"source":"what state has the smallest capital","target":"answer ( intersection ( state , loc_1 ( smallest ( capital ) ) ) )"}
+{"source":"what state has the smallest population","target":"answer ( smallest_one ( population_1 , state ) )"}
+{"source":"what state has the smallest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"what state has the smallest urban population","target":"answer ( smallest_one ( population_1 , state ) )"}
+{"source":"what state has the sparsest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"what state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is m0 the capital of","target":"answer ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) )"}
+{"source":"what state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is m0 the capital of","target":"answer ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) )"}
+{"source":"what state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is m0 located in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"what state is the biggest","target":"answer ( largest ( state ) )"}
+{"source":"what state is the largest in population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"what state is the state with the most rivers","target":"answer ( intersection ( state , most ( state , loc_1 , river ) ) )"}
+{"source":"what state that borders m0 has the highest population","target":"answer ( largest_one ( population_1 , intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what state that borders m0 is the largest","target":"answer ( largest ( intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"what state which the m0 runs through has the largest population","target":"answer ( largest_one ( population_1 , intersection ( state , traverse_1 ( m0 ) ) ) )"}
+{"source":"what states are next to m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states are next to m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states are next to the m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border states that border m0","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what states border states that border m0","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"what states border states that border states that border m0","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"what states border states that border states that border states that border m0","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) ) ) ) ) )"}
+{"source":"what states border states that border the state with the largest population","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) ) ) )"}
+{"source":"what states border states that the m0 runs through","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) )"}
+{"source":"what states border states that the m0 runs through","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) )"}
+{"source":"what states border states which the m0 runs through","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states border m0 and have a major river","target":"answer ( intersection ( intersection ( state , next_to_2 ( m0 ) ) , loc_1 ( intersection ( major , river ) ) ) )"}
+{"source":"what states border the m0 river","target":"answer ( intersection ( state , next_to_2 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states border the most populous state","target":"answer ( intersection ( state , next_to_2 ( largest_one ( population_1 , state ) ) ) )"}
+{"source":"what states border the state that borders the most states","target":"answer ( intersection ( state , next_to_2 ( most ( state , next_to_2 , state ) ) ) )"}
+{"source":"what states border the state with the most cities","target":"answer ( intersection ( state , next_to_2 ( most ( state , loc_1 , city ) ) ) )"}
+{"source":"what states border the state with the most major cities","target":"answer ( intersection ( state , next_to_2 ( most ( state , loc_1 , intersection ( major , city ) ) ) ) )"}
+{"source":"what states border the state with the smallest area","target":"answer ( intersection ( state , next_to_2 ( smallest_one ( area_1 , state ) ) ) )"}
+{"source":"what states border the states with the most cities","target":"answer ( intersection ( state , next_to_2 ( most ( state , loc_1 , city ) ) ) )"}
+{"source":"what states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states capital is m0","target":"answer ( intersection ( state , capital_2 ( m0 ) ) )"}
+{"source":"what states contain at least one major rivers","target":"answer ( intersection ( state , loc_1 ( intersection ( major , river ) ) ) )"}
+{"source":"what states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the m0 run through","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"what states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the m0 run through","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"what states does the m0 river go through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states does the shortest river run through","target":"answer ( intersection ( state , traverse_1 ( shortest ( river ) ) ) )"}
+{"source":"what states have a capital that is the highest point in the state","target":"answer ( intersection ( state , loc_1 ( intersection ( capital , highest ( place ) ) ) ) )"}
+{"source":"what states have a city named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states have no bordering state","target":"answer ( exclude ( state , next_to_2 ( state ) ) )"}
+{"source":"what states have rivers named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"what states have rivers running through them","target":"answer ( intersection ( state , traverse_1 ( river ) ) )"}
+{"source":"what states have towns named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states high point is higher than that of m0","target":"answer ( intersection ( state , high_point_2 ( higher_2 ( high_point_1 ( m0 ) ) ) ) )"}
+{"source":"what states in the m1 have a city of m0","target":"answer ( intersection ( intersection ( state , loc_2 ( m1 ) ) , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"what states neighbor m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what states surround m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"what m0 city has the largest population","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"whats the largest city","target":"answer ( largest ( city ) )"}
+{"source":"where are mountains","target":"answer ( loc_1 ( mountain ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0 located","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is m0","target":"answer ( loc_1 ( m0 ) )"}
+{"source":"where is the m0 river","target":"answer ( loc_1 ( intersection ( river , m0 ) ) )"}
+{"source":"where is the highest mountain of the m0","target":"answer ( highest ( intersection ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the highest point in m0","target":"answer ( highest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the lowest point in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the lowest point in the m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the lowest spot in m0","target":"answer ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the most populated area of m0","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"where is the smallest city","target":"answer ( loc_1 ( smallest ( city ) ) )"}
+{"source":"which capitals are in the states that border m0","target":"answer ( intersection ( capital , loc_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"which capitals are not major cities","target":"answer ( exclude ( capital , intersection ( major , city ) ) )"}
+{"source":"which city in m0 has the largest population","target":"answer ( largest_one ( population_1 , intersection ( city , loc_2 ( m0 ) ) ) )"}
+{"source":"which is the density of the state that the largest river in the m0 runs through","target":"answer ( density_1 ( intersection ( state , traverse_1 ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"which is the highest peak not in m0","target":"answer ( highest ( exclude ( mountain , loc_2 ( m0 ) ) ) )"}
+{"source":"which is the longest river in m0","target":"answer ( longest ( intersection ( river , loc_2 ( m0 ) ) ) )"}
+{"source":"which is the lowest point of the states that the m0 runs through","target":"answer ( lowest ( intersection ( place , loc_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) ) )"}
+{"source":"which is the shortest river","target":"answer ( shortest ( river ) )"}
+{"source":"which is the smallest state","target":"answer ( smallest ( state ) )"}
+{"source":"which of the states bordering m0 has the largest population","target":"answer ( largest_one ( population_1 , intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"which river goes through the most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"which river runs through most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"which river runs through the most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"which river traverses most states","target":"answer ( most ( river , traverse_2 , state ) )"}
+{"source":"which rivers are in m0","target":"answer ( intersection ( river , loc_2 ( m0 ) ) )"}
+{"source":"which rivers do not run through m0","target":"answer ( exclude ( river , traverse_2 ( m0 ) ) )"}
+{"source":"which rivers do not run through m0","target":"answer ( exclude ( river , traverse_2 ( m0 ) ) )"}
+{"source":"which rivers flow through m0","target":"answer ( intersection ( river , traverse_2 ( m0 ) ) )"}
+{"source":"which rivers run through states bordering m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( m0 ) ) ) ) )"}
+{"source":"which rivers run through states that border the state with the capital m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , next_to_2 ( intersection ( state , loc_1 ( intersection ( capital , m0 ) ) ) ) ) ) ) )"}
+{"source":"which rivers run through states with fewest cities","target":"answer ( intersection ( river , traverse_2 ( fewest ( state , loc_1 , city ) ) ) )"}
+{"source":"which rivers run through the state with the largest city in the m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , loc_1 ( largest ( intersection ( city , loc_2 ( m0 ) ) ) ) ) ) ) )"}
+{"source":"which rivers run through the state with the lowest elevation in the m0","target":"answer ( intersection ( river , traverse_2 ( intersection ( state , loc_1 ( lowest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) ) ) )"}
+{"source":"which state border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which state borders m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which state borders m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which state borders most states","target":"answer ( most ( state , next_to_2 , state ) )"}
+{"source":"which state borders the most states","target":"answer ( most ( state , next_to_2 , state ) )"}
+{"source":"which state capital has the smallest population","target":"answer ( smallest_one ( population_1 , capital ) )"}
+{"source":"which state contains most rivers","target":"answer ( most ( state , loc_1 , river ) )"}
+{"source":"which state has the biggest population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"which state has the greatest density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"which state has the greatest population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"which state has the highest elevation","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"which state has the highest peak in the country","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"which state has the highest point","target":"answer ( intersection ( state , loc_1 ( highest ( place ) ) ) )"}
+{"source":"which state has the highest population density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"which state has the largest city","target":"answer ( intersection ( state , loc_1 ( largest ( city ) ) ) )"}
+{"source":"which state has the largest density","target":"answer ( largest_one ( density_1 , state ) )"}
+{"source":"which state has the least population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"which state has the longest river","target":"answer ( intersection ( state , loc_1 ( longest ( river ) ) ) )"}
+{"source":"which state has the lowest elevation","target":"answer ( intersection ( state , loc_1 ( lowest ( place ) ) ) )"}
+{"source":"which state has the lowest point that borders m0","target":"answer ( intersection ( state , loc_1 ( lowest ( intersection ( place , loc_2 ( next_to_2 ( m0 ) ) ) ) ) ) )"}
+{"source":"which state has the lowest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"which state has the most major cities","target":"answer ( most ( state , loc_1 , intersection ( major , city ) ) )"}
+{"source":"which state has the most major rivers","target":"answer ( most ( state , loc_1 , intersection ( major , river ) ) )"}
+{"source":"which state has the most major rivers running through it","target":"answer ( most ( state , traverse_1 , intersection ( major , river ) ) )"}
+{"source":"which state has the most people","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"which state has the most population","target":"answer ( largest_one ( population_1 , state ) )"}
+{"source":"which state has the most rivers","target":"answer ( most ( state , loc_1 , river ) )"}
+{"source":"which state has the most rivers running through it","target":"answer ( most ( state , traverse_1 , river ) )"}
+{"source":"which state has the m0 river","target":"answer ( intersection ( state , loc_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which state has the smallest area that borders m0","target":"answer ( smallest_one ( area_1 , intersection ( state , next_to_2 ( m0 ) ) ) )"}
+{"source":"which state has the smallest average urban population","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"which state has the smallest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"which state has the sparsest population density","target":"answer ( smallest_one ( density_1 , state ) )"}
+{"source":"which state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"which state is m0 in","target":"answer ( intersection ( state , loc_1 ( m0 ) ) )"}
+{"source":"which state is the city m0 located in","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"which state is the largest city in m0 in","target":"answer ( intersection ( state , loc_1 ( largest ( intersection ( city , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"which state is the smallest","target":"answer ( smallest ( state ) )"}
+{"source":"which states adjoin m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border no other states","target":"answer ( exclude ( state , next_to_2 ( state ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border states through which the m0 traverses","target":"answer ( intersection ( state , next_to_2 ( intersection ( state , traverse_1 ( m0 ) ) ) ) )"}
+{"source":"which states border m0","target":"answer ( intersection ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states border the longest river in the m0","target":"answer ( intersection ( state , next_to_2 ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"which states border the m0 river","target":"answer ( intersection ( state , next_to_2 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states border the state with the smallest area","target":"answer ( intersection ( state , next_to_2 ( smallest_one ( area_1 , state ) ) ) )"}
+{"source":"which states capital city is the largest","target":"answer ( intersection ( state , loc_1 ( largest ( intersection ( city , capital_1 ( state ) ) ) ) ) )"}
+{"source":"which states do m0 river flow through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states does not border m0","target":"answer ( exclude ( state , next_to_2 ( m0 ) ) )"}
+{"source":"which states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states does the longest river cross","target":"answer ( intersection ( state , traverse_1 ( longest ( river ) ) ) )"}
+{"source":"which states does the longest river run through","target":"answer ( intersection ( state , traverse_1 ( longest ( river ) ) ) )"}
+{"source":"which states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states does the m0 run through","target":"answer ( intersection ( state , traverse_1 ( m0 ) ) )"}
+{"source":"which states does the m0 river pass through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states does the m0 river run through","target":"answer ( intersection ( state , traverse_1 ( intersection ( river , m0 ) ) ) )"}
+{"source":"which states have a major city named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( major , intersection ( city , m0 ) ) ) ) )"}
+{"source":"which states have a river","target":"answer ( intersection ( state , loc_1 ( river ) ) )"}
+{"source":"which states have cities named m0","target":"answer ( intersection ( state , loc_1 ( intersection ( city , m0 ) ) ) )"}
+{"source":"which states have points higher than the highest point in m0","target":"answer ( intersection ( state , loc_1 ( intersection ( place , higher_2 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) ) ) )"}
+{"source":"which states have points that are higher than the highest point in m0","target":"answer ( intersection ( state , loc_1 ( intersection ( place , higher_2 ( highest ( intersection ( place , loc_2 ( m0 ) ) ) ) ) ) ) )"}
+{"source":"which states lie on the largest river in the m0","target":"answer ( intersection ( state , traverse_1 ( longest ( intersection ( river , loc_2 ( m0 ) ) ) ) ) )"}
+{"source":"which us city has the highest population density","target":"answer ( largest_one ( density_1 , city ) )"}

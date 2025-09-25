@@ -1,0 +1,2 @@
+[2024-04-01 03:42:26,966][sentence_transformers.SentenceTransformer][INFO] - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[2024-04-01 03:43:01,303][root][WARNING] - Some parameters are on the meta device device because they were offloaded to the cpu.
